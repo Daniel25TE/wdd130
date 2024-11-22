@@ -46,7 +46,8 @@ h1 {
     color: black;
     text-align: center;
     position: absolute;
-    
+    font-family: "Geist Mono", serif;
+    font-weight: 500;
     
 }
 article img { /* happyclient*/
