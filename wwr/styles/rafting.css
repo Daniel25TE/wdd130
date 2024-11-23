@@ -15,7 +15,6 @@
 body{
     
     font-family: "Geist Mono", monospace;
-    
     font-weight: 500;
     font-style: normal;
 }
@@ -75,7 +74,7 @@ article p {
     color: black;
     text-align: justify;
     top: 140px;
-    margin-right: -610px;
+    margin-right: -950px;
     margin-left: 10px;
     position: absolute;
 	
@@ -85,7 +84,7 @@ article p {
 	
 	float: right;
 	
-    padding: 50px 700px 200px 50px;
+    padding: 50px 400px 230px 50px;
     font-family: "DM Sans", serif;
     
     font-weight: 500;
@@ -108,8 +107,8 @@ article {
     
 }
 h2 {
-    font-family: "Geist Mono", serif;
-    
+    font-family: "DM Sans", serif;
+    color: brown;
     font-weight: 500;
     font-style: normal;
 }
@@ -118,4 +117,9 @@ footer nav a {
     text-decoration: none;
     
 }
-
+footer p {
+    font-family: "DM Sans", serif;
+    
+    font-weight: 500;
+    font-style: normal;
+}
