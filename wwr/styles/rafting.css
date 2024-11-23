@@ -58,7 +58,7 @@ h1 {
 }
 article img { /* happyclient*/
     
-    margin-top: 180px;
+    margin-top: 150px;
     margin-left: 100px;
     left: 900px;
     width: 150px;
@@ -111,6 +111,9 @@ h2 {
     color: brown;
     font-weight: 500;
     font-style: normal;
+}
+article h2 {
+    color: blue;
 }
 
 footer nav a {
