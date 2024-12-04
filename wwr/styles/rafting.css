@@ -109,6 +109,7 @@ article img { /* happyclient*/
 article iframe {
     margin-top: 200px;
     margin-left: 380px;
+    border: 0;
 }
 article p {
     color: black;
