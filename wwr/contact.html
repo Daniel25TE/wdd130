@@ -52,25 +52,22 @@
             <br>
             <div class="adventures">
                 <figure>
-                    <img src="images/imagedos.webp" alt="Images Dos">
-                    <figcaption>An elephant at sunset</figcaption>
+                    <img src="images/trabajador feliz uno.webp" alt="Images Dos">
+                    <figcaption>Jaime Jackson</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/imagetres.webp" alt="Image Tres">
-                    <figcaption>An elephant at sunset</figcaption>
+                    <img src="images/trabajadorfeliz dos.webp" alt="Image Tres">
+                    <figcaption>Maria la del Barrio</figcaption>
                 </figure>
                 <figure>
-                    <img src="images/imagecuatro.webp" alt="Image Cuatro">
-                    <figcaption>An elephant at sunset</figcaption>
+                    <img src="images/trabajador feliz tres.webp" alt="Image Cuatro">
+                    <figcaption>Arturo Mendez</figcaption>
                 </figure>
                 <figure> 
-                    <img src="images/imagecinco.webp" alt="Image Cinco">
-                    <figcaption>An elephant at sunset</figcaption>
+                    <img src="images/trabajador feliz cuatro.webp" alt="Image Cinco">
+                    <figcaption>Pablito Smith</figcaption>
                 </figure>
-                <figure>
-                    <img src="images/imageseis.webp" alt="Image Seis">
-                    <figcaption>An elephant at sunset</figcaption>
-                </figure>
+                
             </div>
         </section>
         <form>
@@ -88,22 +85,32 @@
             <fieldset>
               <legend>Questions</legend>
               
-                <label for="browser">What is your favorite internet browser?</label>
-                <select id="browser" name="browser">
-              
-                  <option value="chrome">Chrome</option>
-                  <option value="firefox">FireFox</option>
-                  <option value="safari">Safari</option>
-                  <option value="edge">Edge</option>
-                  <option value="brave">Brave</option>
-                  <option value="other">Other</option>
-              </select>
-              <div class="form-item column1">
-                <label for="pet">Do you have a household pet?</label>
-                <input type="checkbox" id="pet" name="pet">
+                <label for="browser">Purpose of the message:</label>
+                <div class="form-group">
+                  <label>
+                      <input type="radio" name="inquiry" value="general" required>
+                      General Inquiry
+                  </label>
               </div>
-                <label for="feedback">List the places you have lived:</label>
+              <div class="form-group">
+                  <label>
+                      <input type="radio" name="inquiry" value="reservation">
+                      Reservation Question
+                  </label>
+              </div>
+              <div class="form-group">
+                  <label>
+                      <input type="radio" name="inquiry" value="suggestion">
+                      Website Suggestion
+                  </label>
+              </div>
+              
+                <label for="feedback">Message:</label>
                 <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea>
+                <div class="form-item column1">
+                  <label for="pet">Please subscribe me to the monthly newsletter</label>
+                  <input type="checkbox" id="pet" name="pet">
+                </div>
             </fieldset>
             <button type="submit">Submit Poll</button>
           </form>

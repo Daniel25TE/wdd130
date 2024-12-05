@@ -279,7 +279,7 @@ label, input, button, select, textarea {
     font-family: Roboto, Arial, sans-serif;
 }
 label {
-    text-align: right;
+    text-align: left;
     padding-right: 1rem;
 }
 input, select, textarea {
