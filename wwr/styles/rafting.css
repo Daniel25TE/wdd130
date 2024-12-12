@@ -207,7 +207,43 @@ figure {
     
 
 }
-  
+.trips {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: -700px;
+    margin-right: 0px;
+    margin-top: 100px;
+    color: rgb(0, 9, 61);
+    
+
+    
+    
+
+}
+.trips figcaption {
+    
+    margin-right: -1000px;
+    margin-left: 1000px;
+    font-family: "DM Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+    
+    
+    
+}
+table {
+    
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f0f0f0;
+}
 figcaption {
     display: flex;
     flex-flow: row;
@@ -304,4 +340,8 @@ button {
 
 button:hover {
     background-color: darkgreen;
+}
+
+main p {
+    text-align: center;
 }
