@@ -98,7 +98,7 @@ h1 {
 }
 article img { /* happyclient*/
     
-    margin-top: 150px;
+    margin-top: 180px;
     margin-left: 100px;
     left: 900px;
     width: 150px;
@@ -113,8 +113,8 @@ article iframe {
 }
 article p {
     color: black;
-    text-align: justify;
-    top: 140px;
+    
+    top: 180px;
     margin-right: -950px;
     margin-left: 10px;
     position: absolute;
